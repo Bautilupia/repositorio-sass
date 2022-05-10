@@ -1,0 +1,27 @@
+body {
+  background-color: #d7d7d8;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 500px; }
+
+header {
+  grid-area: encabezado;
+  background: darkslategrey;
+  background-image: linear-gradient(to right, #364141, #55828f);
+  color: white;
+  text-align: center; }
+  header div {
+    display: grid;
+    grid-template-columns: 3fr;
+    grid-template-rows: 0.5fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px; }
+
+nav {
+  background-color: #55828f; }
+  nav li {
+    display: inline-block;
+    padding: 12px; }
+  nav img {
+    width: 25px; }
