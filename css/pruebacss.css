@@ -25,3 +25,38 @@ nav {
     padding: 12px; }
   nav img {
     width: 25px; }
+
+.div-one {
+  text-align: center; }
+
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px; }
+  main p {
+    text-align: center; }
+  main div {
+    grid-area: 1 / 1 / 2 / 2;
+    background: darkslategrey;
+    background-image: linear-gradient(to right, #a2d6fc, #55828f);
+    text-align: center; }
+  main img {
+    width: 700px; }
+
+.div-2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px; }
+  .div-2 p {
+    text-align: center; }
+  .div-2 div {
+    grid-area: 1 / 1 / 2 / 2;
+    background: darkslategrey;
+    background-image: linear-gradient(to right, #a2d6fc, #55828f);
+    text-align: center; }
+  .div-2 img {
+    width: 700px; }

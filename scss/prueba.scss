@@ -1,39 +1,85 @@
 body {
-    background-color: #d7d7d8;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: 500px;
+     background-color: #d7d7d8;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-attachment: fixed;
+     background-size: 500px;
 }
 
 header {
     grid-area: encabezado; 
-    background: darkslategrey;
+     background: darkslategrey;
     background-image: linear-gradient(to right, rgb(54, 65, 65), #55828f);
-    color: white;
-    text-align: center;
+     color: white;
+     text-align: center;
 
-    div {
-        display: grid;
-    grid-template-columns: 3fr;
-    grid-template-rows: 0.5fr;
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
+     div {
+         display: grid;
+     grid-template-columns: 3fr;
+     grid-template-rows: 0.5fr;
+     grid-column-gap: 0px;
+     grid-row-gap: 0px;
     }
 }
 
 nav {
-    background-color: #55828f;
+     background-color: #55828f;
     
     li {
         display: inline-block;
-        padding: 12px;
-    }
+         padding: 12px;
+     }
 
-    img {
-        width: 25px;
-    }
+     img {
+       width: 25px;
+     }
 
 }
+
+.div-one{
+    text-align: center;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    
+    p {
+        text-align: center;
+    }
+
+    div {
+    grid-area: 1 / 1 / 2 / 2; background: darkslategrey;
+    background-image: linear-gradient(to right, #a2d6fc, #55828f); text-align: center;}
+
+    img {
+        width: 700px;
+        
+    }
+}
+
+.div-2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+
+    p {
+        text-align: center;
+    }
+
+    div {
+        grid-area: 1 / 1 / 2 / 2; background: darkslategrey;
+    background-image: linear-gradient(to right, #a2d6fc, #55828f); text-align: center;}
+    
+    img {
+        width: 700px;
+    }
+}
+
 
 
