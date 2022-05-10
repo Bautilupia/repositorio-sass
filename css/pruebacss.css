@@ -60,3 +60,11 @@ main {
     text-align: center; }
   .div-2 img {
     width: 700px; }
+
+footer {
+  background-color: #55828f; }
+  footer li {
+    display: inline-block;
+    padding: 12px; }
+  footer img {
+    width: 25px; }
